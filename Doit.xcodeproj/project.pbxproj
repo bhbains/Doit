@@ -15,6 +15,7 @@
 		5622ADC31F1E3E7F00009ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5622ADC11F1E3E7F00009ECF /* LaunchScreen.storyboard */; };
 		5622ADCE1F1E3E7F00009ECF /* DoitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622ADCD1F1E3E7F00009ECF /* DoitTests.swift */; };
 		5622ADD91F1E3E7F00009ECF /* DoitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622ADD81F1E3E7F00009ECF /* DoitUITests.swift */; };
+		5622ADE71F1F955100009ECF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622ADE61F1F955100009ECF /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5622ADD41F1E3E7F00009ECF /* DoitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5622ADD81F1E3E7F00009ECF /* DoitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitUITests.swift; sourceTree = "<group>"; };
 		5622ADDA1F1E3E7F00009ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5622ADE61F1F955100009ECF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5622ADB51F1E3E7F00009ECF /* AppDelegate.swift */,
 				5622ADB71F1E3E7F00009ECF /* ViewController.swift */,
+				5622ADE61F1F955100009ECF /* Task.swift */,
 				5622ADB91F1E3E7F00009ECF /* Main.storyboard */,
 				5622ADBF1F1E3E7F00009ECF /* Assets.xcassets */,
 				5622ADC11F1E3E7F00009ECF /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5622ADE71F1F955100009ECF /* Task.swift in Sources */,
 				5622ADB81F1E3E7F00009ECF /* ViewController.swift in Sources */,
 				5622ADB61F1E3E7F00009ECF /* AppDelegate.swift in Sources */,
 				5622ADBE1F1E3E7F00009ECF /* Doit.xcdatamodeld in Sources */,
